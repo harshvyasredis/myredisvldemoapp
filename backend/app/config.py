@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     # CORS Settings
     allowed_origins: str = os.getenv(
         "ALLOWED_ORIGINS",
-        "http://localhost:3000,http://localhost:5173,https://*.replit.app,https://*.repl.co"
+        "http://localhost:3000,http://localhost:5173,https://*.replit.app,https://*.repl.co,https://*.replit.dev"
     )
 
     @property
